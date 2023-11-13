@@ -10,6 +10,9 @@
 body{
     padding: 10px;
     background-color: #131f26;
+    background-image: url(../midia/image-from-rawpixel-id-5926993-original.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 header {
