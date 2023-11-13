@@ -27,3 +27,29 @@ header h1 {
     padding-bottom: 8px;
     text-align: center;
 }
+
+section{
+    width: 250px;
+    height: 100px;
+    margin: auto;
+
+}
+
+section a{
+    text-decoration: none;
+}
+
+section a p {
+    font-family: nunito, sans-serif;
+    margin-top: 25vh;
+    font-size: 3em;
+    text-align: center;
+    color: #fcecc4;
+    padding: 3px;
+    background-color: #f28a2e;
+    border-radius: 8px;
+}
+
+section:hover{
+    text-decoration: underline #D93D3D;
+}
