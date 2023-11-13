@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    font-size: 4.5em;
+    font-size: 5em;
     font-weight: lighter;
     padding: 8px;
     padding-top: 30px;
@@ -28,7 +28,7 @@ header h1 {
 }
 
 section{
-    margin-top: 300px;
+
 }
 
 div.opcoes{
@@ -37,4 +37,25 @@ div.opcoes{
     height: 200px;
     width: 200px;
     background-color: white;
+}
+
+div.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.monte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.montadas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
