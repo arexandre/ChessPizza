@@ -10,9 +10,6 @@
 body{
     padding: 10px;
     background-color: #131f26;
-    background-image: url(../midia/image-from-rawpixel-id-5926993-original.jpg);
-    background-position: center center;
-    background-size: cover;
 }
 
 header {
@@ -32,20 +29,21 @@ header h1 {
     text-align: center;
 }
 
-section{
-    width: 250px;
-    height: 100px;
+div{
+    max-width: 475px;
     margin: auto;
-
+    margin-bottom: 25px;
+}
+div#Monte {
+    margin-top: 50px;
 }
 
-section a{
+div a{
     text-decoration: none;
 }
 
-section a p {
+div a p {
     font-family: nunito, sans-serif;
-    margin-top: 25vh;
     font-size: 3em;
     text-align: center;
     color: #fcecc4;
@@ -54,6 +52,6 @@ section a p {
     border-radius: 8px;
 }
 
-section:hover{
+div:hover{
     text-decoration: underline #D93D3D;
 }
