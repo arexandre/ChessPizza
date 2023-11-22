@@ -19,6 +19,7 @@ header {
 }
 
 header h1 {
+    display: inline-flex;
     font-size: 5em;
     font-weight: lighter;
     padding: 8px;
@@ -26,8 +27,17 @@ header h1 {
     color: white;
     font-family: caprasimo;
     padding-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
+
+div#login{
+    margin: 20px 45px 0px 0px;
+    float: right;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+}
+
 
 div{
     max-width: 475px;
