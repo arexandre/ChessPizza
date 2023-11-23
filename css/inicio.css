@@ -9,11 +9,11 @@
 
 body{
     padding: 10px;
-    background-color: #131f26;
+    background-color: #291511;
 }
 
 header {
-    background-color: #D93D3D;
+    background-color: #d33313;
     min-height: 25vh;
     margin: -10px;
 }
@@ -45,6 +45,11 @@ div#login{
 
 div.middle img{
     border-radius: 15px;
+}
+
+div.middle:hover{
+    width: 500px;
+    margin: auto;
 }
 
 div#Monte{

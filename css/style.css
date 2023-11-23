@@ -7,13 +7,21 @@
     border: 0px;
 }
 
+p{
+    font-family: Nunito, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
     padding: 10px;
-    background-color: #131f26;
+    background-color: #291511;
 }
 
 header {
-    background-color: #D93D3D;
+    background-color: #d33313;
     min-height: 25vh;
     margin: -10px;
 }
@@ -37,4 +45,59 @@ header a {
 header a h1:hover{
     background-color: #78b99b25;
     padding-bottom: 37px;
+}
+
+div.botao{
+    width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #974a3e;
+    border-radius: 15px;
+    padding: 20px;
+}
+div.botao:hover{
+    background-color: #78b99b25;
+}
+
+div.botao p{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+div#primeiro{
+    margin-top: 45px;
+}
+
+div.botao input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+div.campo{
+    width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #974a3e;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+div.campo p{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+div.campo input{
+    width: 500px;
+    height: 35px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1.8em;
+
 }
