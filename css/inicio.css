@@ -38,30 +38,11 @@ div#login{
     height: 100px;
 }
 
-
-div{
-    max-width: 475px;
-    margin: auto;
-    margin-bottom: 25px;
-}
-div#Monte {
-    margin-top: 50px;
-}
-
-div a{
-    text-decoration: none;
-}
-
-div a p {
-    font-family: nunito, sans-serif;
-    font-size: 3em;
+.middle{
     text-align: center;
-    color: #fcecc4;
-    padding: 3px;
-    background-color: #f28a2e;
-    border-radius: 8px;
+    margin: 15px;
 }
 
-div:hover{
-    text-decoration: underline #D93D3D;
+div#Monte{
+    margin-top: 50px;
 }
