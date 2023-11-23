@@ -43,6 +43,10 @@ div#login{
     margin: 15px;
 }
 
+div.middle img{
+    border-radius: 15px;
+}
+
 div#Monte{
     margin-top: 50px;
 }
