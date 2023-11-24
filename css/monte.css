@@ -53,3 +53,7 @@ label{
     padding: 10px;
     font-size: 1.8em;
 }
+
+input#quantidade{
+    background-color: #666;
+}
