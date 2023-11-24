@@ -8,8 +8,40 @@
 }
 
 body{
-    padding: 10px;
     background-color: #291511;
+    margin-bottom: 20px;
+}
+
+header {
+    display: inline-flex;
+    background-color: #d33313;
+    min-height: 25vh;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: lighter;
+    padding: 8px;
+    padding-top: 30px;
+    color: white;
+    font-family: caprasimo;
+    padding-bottom: 8px;
+}
+
+img{
+    display: inline-flex;
+    width: 75px;
+    height: 75px;
+}
+
+div#cadastrado{
+    margin-left: 284px;
+}
+
+div#volta{
+    margin-right: 284px;
 }
 
 h2{
@@ -22,26 +54,14 @@ h2, p{
     font-family: Nunito, sans-serif;
 }
 
-header {
-    background-color: #d33313;
-    min-height: 25vh;
-    margin: -10px;
+
+section#criar p{
+    display: inline-flex;
 }
 
-header h1 {
-    display: inline-flex;
-    font-size: 5em;
-    font-weight: lighter;
-    padding: 8px;
-    padding-top: 30px;
-    color: white;
-    font-family: caprasimo;
-    padding-bottom: 8px;
-    text-align: left;
-}
 
 section{
-    padding: 5px;
+    padding: 10px 20px;
     background-color: white;
     margin: auto;
     border: 10px;
@@ -51,9 +71,35 @@ section{
 
 label{
     padding: 10px;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 input#quantidade{
+    width: 40px;
     background-color: #666;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+div.tamanho{
+    width: 450x;
+}
+
+div#meiuca{
+    margin: 0px 210px;
+}
+
+div#fim{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 2em;
+    background-color: #78b99b;
+    border-radius: 15px;
+    color: black;
+}
+
+div#fim:hover{
+    background-color: #6ba389;
 }
