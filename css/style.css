@@ -130,3 +130,39 @@ div#preencher input{
 p#inputlast{
     outline: 50px;
 }
+
+section#dados{
+    margin-top: 55px;
+}
+
+div#nome{
+    font-size: 2em;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    width: 600px;
+}
+
+div#nome input{
+    background-color: #66666635;
+    height: 35px;
+    font-size: 0.8em;
+    margin-top: 5px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+div#pagar{
+    margin: auto;
+    background-color: #78b99b;
+    width: 200px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
