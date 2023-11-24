@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: #291511;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #d33313;
+    min-height: 25vh;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: lighter;
+    padding: 8px;
+    padding-top: 30px;
+    color: white;
+    font-family: caprasimo;
+    padding-bottom: 8px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+section#revisar{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 2em;
+    padding: 10px;
+}
+
+p.cinza{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    color: #444;
+}
+
+select#selecao{
+    font-size: 1.3em;
+}
+
+p{
+    padding: 2px;
+    font-size: 1.3em;
+}
+
+section input{
+    background-color: #66666635;
+    border-radius: 5px;
+    padding: 5px;
+    width: 590px;
+}
+
+div#concluir{
+    background-color: #78b99b;
+    width: 200px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+}
