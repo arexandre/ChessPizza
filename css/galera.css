@@ -48,3 +48,44 @@ div#volta{
     margin-right: 260px;
     padding-left: 24px;
 }
+
+section.galera{
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+section h2{
+    font-size: 2em;
+    padding: 5px 0px;
+}
+
+section p{
+    padding: 5px 0px;
+    color: #555;
+}
+
+section h3{
+    text-align: center;
+}
+
+div#fim{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 2em;
+    background-color: #78b99b;
+    border-radius: 15px;
+    color: black;
+}
+div#fim p{
+    color: black;
+}
+
+div#fim:hover{
+    background-color: #6ba389;
+}
