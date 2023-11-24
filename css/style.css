@@ -108,6 +108,7 @@ div#preencher{
     margin: auto;
     margin-top: 35px;
     border-radius: 10px;
+    padding: 15px 5px 30px 5px;
 }
 
 div#preencher p{
