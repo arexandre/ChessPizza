@@ -34,14 +34,17 @@ img{
     display: inline-flex;
     width: 75px;
     height: 75px;
+    padding-top: 30px;
 }
 
 div#cadastrado{
-    margin-left: 284px;
+    margin-left: 260px;
+    padding-right: 24px;
 }
 
 div#volta{
-    margin-right: 284px;
+    margin-right: 260px;
+    padding-left: 24px;
 }
 
 h2{
